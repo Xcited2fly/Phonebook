@@ -18,8 +18,7 @@ def search():
         c = 1
         n = user.name
         p = user.phone
-##    l4.configure(text=n)
-##    l5.configure(text=p)
+
     if c==1:
         l4.configure(text=n)
         l5.configure(text=p)
@@ -56,4 +55,3 @@ l5=Label(tk,text="",bg='green',font="Times 15 bold")
 l5.pack()
 
 tk.mainloop()
-
